@@ -16,7 +16,7 @@
 
 ## INSTALACION
 
-- ``git clone`` <https://github.com/Diegosilcor/Diego-Silva-Cordoba-Coder-House-React-Js.git>
+- ``git clone`` <https://github.com/Diegosilcor/motors.git>
 
 - ``npm install``
 
