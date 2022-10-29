@@ -11,6 +11,7 @@ const Footer = () => {
                 <div className="footer-container">
                     <ul className="list">
                                 <p>Copyright © 2022.Todos los derechos reservados. Tuto Motors</p>
+                               
                     </ul>
                 </div>
             </footer>
