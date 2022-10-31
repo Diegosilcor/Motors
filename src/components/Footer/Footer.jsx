@@ -1,25 +1,31 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
+  return (
+    <div>
+      <footer className="footer">
+        <img className="Logo">
+            
 
-    return(
-
-        <div>
-
-            <footer className="footer">
-                <div className="footer-container">
-                    <ul className="list">
-                                <p>Copyright © 2022.Todos los derechos reservados. Tuto Motors</p>
-                               
-                    </ul>
-                </div>
-            </footer>
-
-        </div>
-    );
-
-
-}
+        </img>
+        <ul className="list">
+          <li>
+            <a href="WhatApp">WhatApp</a>
+          </li>
+          <li>
+            <a href="Mail">Mail</a>
+          </li>
+          <li>
+            <a href="Direccion">Direccion</a>
+          </li>
+          <li>
+            <a href="Horarios">Horarios</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  );
+};
 
 export default Footer;

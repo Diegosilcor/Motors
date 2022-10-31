@@ -2,8 +2,8 @@ import Carousel from './components/Carousel/Carousel.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Navbar from "./components/NavBar/NavBar";
-import TiendaOnline from './components/TiendaOnline/TiendaOnline.jsx';
-import Footer from './components/Footer/Footer.jsx';
+import TiendaOnline from './components/TiendaOnline/TiendaOnline';
+import Footer from './components/Footer/Footer';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
