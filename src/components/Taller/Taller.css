@@ -1,0 +1,18 @@
+
+
+.Taller{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background: gold;
+    
+
+}
+
+.el-taller {
+    text-align: center;
+    border: 1px;
+    padding: 70px;
+}

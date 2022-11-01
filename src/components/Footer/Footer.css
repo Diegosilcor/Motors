@@ -1,13 +1,12 @@
 .footer {
-    height: 400px;
-    margin-bottom: auto;
+    height: 300px;
     background-color: #004e78;
   
   }
   
   .list{
     height: 80px;
-    font-size: 1.8em;
+    font-size: large;
     display: flex;
     flex: 1;
     margin-top: 8px;

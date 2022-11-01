@@ -1,34 +1,41 @@
-import Carousel from './components/Carousel/Carousel.jsx'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from "./components/Carousel/Carousel.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Navbar from "./components/NavBar/NavBar";
-import TiendaOnline from './components/TiendaOnline/TiendaOnline';
-import Footer from './components/Footer/Footer';
+import Footer from "./components/Footer/Footer";
+import TiendaOnline from "./components/TiendaOnline/TiendaOnline.jsx";
+import Taller from "./components/Taller/Taller";
+import Servicios from "./components/Servicios/Servicios"
+import Ubicacion from "./components/Ubicacion/Ubicacion"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-          <Navbar />
-           <Carousel />
-          <Routes>
-            <Route
-              path="/category/:categoryId"
-            />
-            <Route
-              path="/detail/:productsId"
-            />
-
-      
+        <Navbar />
+        <Carousel />
+        <Routes>
+          <Route path="/category/:categoryId" />
+          <Route path="/detail/:productsId" />
         </Routes>
+        <TiendaOnline />
+        <Servicios />
+        <Taller />
+        <Ubicacion />
+
+
+
+
+
+
         <Footer />
-        </BrowserRouter>
-        
-         {/* WhatsApp icon */}
-         <a
+      
+      </BrowserRouter>
+
+      {/* WhatsApp icon */}
+      <a
         href="https://wa.me/2348100000000"
         class="whatsapp_float"
         target="_blank"
@@ -36,11 +43,7 @@ function App() {
       >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a>
-      
     </div>
-
-
-    
   );
 }
 
