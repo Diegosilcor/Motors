@@ -1,21 +1,24 @@
-import Carousel from "./components/Carousel/Carousel.jsx";
+import CarouselIndex from "./components/Carousel/Carousel.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import TiendaOnline from "./components/TiendaOnline/TiendaOnline.jsx";
 import Taller from "./components/Taller/Taller";
-import Servicios from "./components/Servicios/Servicios"
-import Ubicacion from "./components/Ubicacion/Ubicacion"
+import Servicios from "./components/Servicios/Servicios";
+import Ubicacion from "./components/Ubicacion/Ubicacion";
+import Carouseltaller from "./components/Carouseltaller/Carouseltaller"
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <Carousel />
+        <CarouselIndex />
         <Routes>
           <Route path="/category/:categoryId" />
           <Route path="/detail/:productsId" />
@@ -23,15 +26,10 @@ function App() {
         <TiendaOnline />
         <Servicios />
         <Taller />
+        <Carouseltaller />
         <Ubicacion />
 
-
-
-
-
-
         <Footer />
-      
       </BrowserRouter>
 
       {/* WhatsApp icon */}

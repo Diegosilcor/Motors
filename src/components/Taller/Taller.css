@@ -3,16 +3,22 @@
 .Taller{
     height: 200px;
     width: 100%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    background: gold;
-    
+    background: rgb(0 78 120);
+    opacity: 0.55;
 
 }
 
-.el-taller {
-    text-align: center;
-    border: 1px;
+.servicios  {
     padding: 70px;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFF;
+    position: relative;
+    bottom: 20px;
+    font-size: 37px;
+    font-weight: 800;
+}
+
+.Foto12{
+    height: 100%;
+    width: auto;
 }
