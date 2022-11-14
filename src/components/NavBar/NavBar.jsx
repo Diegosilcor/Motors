@@ -12,23 +12,23 @@ const Navbar = () => {
           <div className="ul-container">
             <ul className="list">
               <Link to="/" className="btn-nav">
-                Inicio
+                SERVICIOS
               </Link>
               <Link to="/category/" className="btn-nav">
-                Servicio tecnico
+                CONSEJOS PARA EL CARRO
               </Link>
               <Link to="/category/" className="btn-nav">
-                Venta de repuestos
+                EL TALLER
               </Link>
                 <Link to="/category/" className="btn-nav">
-                Nosotros
+                UBICACION
               </Link>
             </ul>
           </div>
         </div>
       </nav>
       <div className="header-container">
-        <h1>Tuto Motors</h1>
+        <h1>TUTO MOTORS</h1>
       </div>
     </header>
   );

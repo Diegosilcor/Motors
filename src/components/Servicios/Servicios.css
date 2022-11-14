@@ -1,7 +1,8 @@
 .Servicios-en-el-taller{
-    height: 200px;
+    height: 300px;
     width: 100%;
     background: rgb(0 78 120);
+    background-image: ("") ;
 
 
 }
@@ -22,4 +23,16 @@
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
+}
+
+.servicios{
+  opacity: 0.5;
+  max-width: 30%;
+  min-height: auto;
+  max-height: auto;
+  padding: 30px 10px 5px 20px;
+  height: 300px;
+  display: flex;
+  float: right;
+  justify-content: center;
 }

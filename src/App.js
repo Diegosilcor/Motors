@@ -7,7 +7,8 @@ import TiendaOnline from "./components/TiendaOnline/TiendaOnline.jsx";
 import Taller from "./components/Taller/Taller";
 import Servicios from "./components/Servicios/Servicios";
 import Ubicacion from "./components/Ubicacion/Ubicacion";
-import Carouseltaller from "./components/Carouseltaller/Carouseltaller"
+import ServiciosTaller from "./components/ServiciosTaller/Serviciostaller.js";
+
 
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -25,8 +26,8 @@ function App() {
         </Routes>
         <TiendaOnline />
         <Servicios />
+        <ServiciosTaller />
         <Taller />
-        <Carouseltaller />
         <Ubicacion />
 
         <Footer />

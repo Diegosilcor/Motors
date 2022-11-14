@@ -1,0 +1,14 @@
+.electronica {
+    height: 300px;
+    width: 150px;
+    display: flex;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1-8rem;
+    letter-spacing: -0.015rem;
+    text-align: left;
+    border: 1px solid #000;
+    justify-content: start;
+
+}
+
