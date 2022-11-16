@@ -29,6 +29,7 @@ const Navbar = () => {
       </nav>
       <div className="header-container">
         <h1>TUTO MOTORS</h1>
+        <h3>BODY SHOP - MULTIMARCA</h3>
       </div>
     </header>
   );

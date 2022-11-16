@@ -1,12 +1,14 @@
 import React from "react";
 import "./Serviciostaller.css";
+import electronica from "./electronica.png";
+import mecanica from "./mecanica.png";
+import inyeccion from "./inyeccion.png";
 
 const ServiciosTaller = () => {
   return (
     <>
-      <div className="electronica">
-        ELECTRONICA
-        
+      <div className="electronica"> <img className="imagen-electronica" src= {electronica} />
+      ELECTRÓNICA
           <ul>
             <li>Diagnostico de sistemas</li>
             <li>Electricidad</li>
@@ -14,7 +16,7 @@ const ServiciosTaller = () => {
           </ul>
         
       </div>
-      <div className="mecanica">
+      <div className="mecanica"> <img className="imagen-mecanica" src= {mecanica} />
         MECANICA
         <ul>
           <li>Mecanica Ligera</li>
@@ -22,7 +24,7 @@ const ServiciosTaller = () => {
           <li>Cambios de Aceite</li>
         </ul>
       </div>
-      <div className="inyeccion">
+      <div className="inyeccion"> <img className="imagen-inyeccion" src= {inyeccion} />
         INYECCION
         <ul>
           <li>Inyeccion de Gasolina</li>

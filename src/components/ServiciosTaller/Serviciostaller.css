@@ -1,14 +1,117 @@
 .electronica {
+    border: solid black 1px;
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
     height: 300px;
-    width: 150px;
-    display: flex;
-    position: relative;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1-8rem;
-    letter-spacing: -0.015rem;
-    text-align: left;
-    border: 1px solid #000;
-    justify-content: start;
-
+    border-width: 2px 2px 2px 2px;
+    border-color:grey;
+    margin: 5px 5px 5px 5px;
+    transition: all;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+    color: #0083cc;
+    font-size: 20px; 
+    float: left;
+    
 }
 
+.imagen-electronica {
+    width: 50%;
+    height: 50%;
+    
+}
+
+.mecanica {
+    border: solid black 1px;
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
+    height: 300px;
+    border-width: 2px 2px 2px 2px;
+    border-color:grey;
+    margin: 5px 5px 5px 5px;
+    transition: all;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+    color: #0083cc;
+    font-size: 20px;
+    float: left;
+    
+}
+
+.imagen-mecanica {
+    width: 50%;
+    height: 50%;
+    
+}
+
+.inyeccion {
+    border: solid black 1px;
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
+    height: 300px;
+    border-width: 2px 2px 2px 2px;
+    border-color:grey;
+    margin: 5px 5px 5px 5px;
+    transition: all;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+    color: #0083cc;
+    font-size: 20px;
+    float: left;
+}
+
+.imagen-inyeccion {
+    width: 50%;
+    height: 50%;
+    
+}
+
+.colision {
+    border: solid black 1px;
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
+    height: 300px;
+    border-width: 2px 2px 2px 2px;
+    border-color:grey;
+    margin: 5px 5px 5px 5px;
+    transition: all;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+    color: #0083cc;
+    font-size: 20px;
+    
+   
+}
+
+.AC {
+    border: solid black 1px;
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
+    height: 300px;
+    border-width: 2px 2px 2px 2px;
+    border-color:grey;
+    margin: 5px 5px 5px 5px;
+    transition: all;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+    color: #0083cc;
+    font-size: 20px;
+    
+    
+}
+
+.limpieza {
+    border: solid black 1px;
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
+    height: 300px;
+    border-width: 2px 2px 2px 2px;
+    border-color:grey;
+    margin: 5px 5px 5px 5px;
+    transition: all;
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+    color: #0083cc;
+    font-size: 20px;
+   
+}

@@ -6,27 +6,24 @@
 }
 
 .imagen-1 {
-    width: 300 px;
-    height: 700px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: solid, 10px;
+    padding: 5px;
 }
 
 .imagen-2 {
-    width: 300 px;
-    height: 700px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+    border: solid, 10px;
+    padding: 5px;
 }
 .imagen-3 {
-    width: 300 px;
-    height: 700px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: solid, 10px;
+    padding: 5px;
 }
