@@ -4,7 +4,6 @@ import "./App.css";
 import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import TiendaOnline from "./components/TiendaOnline/TiendaOnline.jsx";
-import Taller from "./components/Taller/Taller";
 import Servicios from "./components/Servicios/Servicios";
 import Ubicacion from "./components/Ubicacion/Ubicacion";
 import ServiciosTaller from "./components/ServiciosTaller/Serviciostaller.js";
@@ -27,7 +26,6 @@ function App() {
         <TiendaOnline />
         <Servicios />
         <ServiciosTaller />
-        <Taller />
         <Ubicacion />
 
         <Footer />

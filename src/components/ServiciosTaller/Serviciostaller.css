@@ -1,3 +1,4 @@
+
 .electronica {
     border: solid black 1px;
     border-radius: 5px 5px 5px 5px;
@@ -66,7 +67,7 @@
     
 }
 
-.colision {
+.suspension {
     border: solid black 1px;
     border-radius: 5px 5px 5px 5px;
     width: 300px;
@@ -79,9 +80,15 @@
     text-align: justify;
     color: #0083cc;
     font-size: 20px;
+    float: left;
     
    
 }
+
+.imagen-suspension {
+    width: 50%;
+    height: 50%;
+ }
 
 .AC {
     border: solid black 1px;
@@ -96,9 +103,15 @@
     text-align: justify;
     color: #0083cc;
     font-size: 20px;
-    
+    float: left;
     
 }
+
+.imagen-ac {
+    width: 50%;
+    height: 50%;
+ }
+
 
 .limpieza {
     border: solid black 1px;
@@ -113,5 +126,10 @@
     text-align: justify;
     color: #0083cc;
     font-size: 20px;
-   
+    float: left;
 }
+
+.imagen-limpieza {
+    width: 50%;
+    height: 50%;
+ }

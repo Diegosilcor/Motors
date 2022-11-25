@@ -3,6 +3,9 @@ import "./Serviciostaller.css";
 import electronica from "./electronica.png";
 import mecanica from "./mecanica.png";
 import inyeccion from "./inyeccion.png";
+import suspension from "./suspension.png";
+import climatizacion from "./climatizacion.png";
+import accesorios from "./accesorios.png";
 
 const ServiciosTaller = () => {
   return (
@@ -32,7 +35,7 @@ const ServiciosTaller = () => {
           <li>Limpieza de Inyectores</li>
         </ul>
       </div>
-      <div className="colision">
+      <div className="suspension"> <img className="imagen-suspension" src= {suspension} />
         COLISION
         <ul>
           <li>Reparacion de Colisiones</li>
@@ -40,19 +43,19 @@ const ServiciosTaller = () => {
           <li>Reparacion de Colisiones</li>
         </ul>
       </div>
-      <div className="AC">
+      <div className="AC"> <img  className="imagen-ac" src={climatizacion} />
         AIRE ACONDICIONADO
         <ul>
-          <li>Reemplazo de Filtros</li>
-          <li>Carga de Gas</li>
+          <li>Reemplazo Filtros</li>
+          <li>Carga Gas</li>
           <li>Reparacion de AC</li>
         </ul>
       </div>
-      <div className="limpieza">
+      <div className="limpieza"> <img className="imagen-limpieza" src={accesorios} />
         LIMPIEZA
         <ul>
-          <li>Limpieza de interiores </li>
-          <li>Desmantelamiento de Carro para limpieza profunda</li>
+          <li>Limpieza de interiores</li>
+          <li>Desmantelamiento limpieza profunda</li>
           <li>Limpieza de Chasis</li>
         </ul>
       </div>

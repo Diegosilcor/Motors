@@ -1,13 +1,12 @@
 
-.ubicacion{
-    height: 300px;
+
+.ubicacion .direccion .horario{
+    height: 600px;
     width: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: auto;
 }
 
-.direccion{
-    font-size: normal;
-}
 
 .turno-wap{
     background-color: #27A238;
