@@ -1,42 +1,43 @@
 import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Carousel.css';
 
 function CarouselIndex() {
   return (
     <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://acortar.link/HV2FAj"
+          className="imagen-1"
+          src="imagenes/aa2.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Ultima tecnologia en sistemas de verificaciones de fallos</h3>
+          <h3>Revision sistemas de aire acondicionado de ultima generacion</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://acortar.link/vxBEW6"
+          className="imagen-2"
+          src="imagenes/Mecanica.jpg"
           alt="Second slide"
         />
         
         <Carousel.Caption>
-          <h3>Contamos con tecnicos expertos</h3>
+          <h3>Mecanica General</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://acortar.link/rvFT2o"
+          className="imagen-3"
+          src="imagenes/decontaminacion.jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Inspeccion visual y computarizada del vehiculo</h3>
+          <h3>Decontaminacion y limpieza del vehiculo</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
 }
-
 export default CarouselIndex;
